@@ -5,7 +5,8 @@ const skills = [
   // Frontend
   { name: "HTML5", level: 95, category: "frontend" },
   { name: "CSS3", level: 95, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
+  { name: "JavaScript", level: 85, category: "frontend" },
+  { name: "ES6+", level: 90, category: "frontend" },
   { name: "React", level: 90, category: "frontend" },
   { name: "TypeScript", level: 85, category: "frontend" },
   { name: "SASS/SCSS", level: 90, category: "frontend" },
@@ -36,16 +37,25 @@ const skills = [
   { name: "ShadCN", level: 80, category: "frontend" },
 
   // Headless CMS
-  { name: "WordPress", level: 95, category: "cms" },
-  { name: "Strapi", level: 70, category: "cms" },
-  { name: "Gatsby", level: 70, category: "cms" },
-  { name: "Gutenberg", level: 90, category: "cms" },
-  { name: "Elementor", level: 90, category: "cms" },
-  { name: "WooCommerce", level: 80, category: "cms" },
-  { name: "Contentful", level: 70, category: "cms" }
+  { name: "CMS", level: 95, category: "wordpress" },
+  { name: "Strapi", level: 70, category: "wordpress" },
+  { name: "Gatsby", level: 70, category: "wordpress" },
+  { name: "Gutenberg", level: 90, category: "wordpress" },
+  { name: "Elementor Pro", level: 90, category: "wordpress" },
+  { name: "WooCommerce", level: 80, category: "wordpress" },
+  { name: "Custom Post Types", level: 90, category: "wordpress" },
+  { name: "ACF", level: 90, category: "wordpress" },
+  { name: "PHP", level: 70, category: "wordpress" },
+  { name: "WP_Query", level: 95, category: "wordpress" },
+  { name: "Custom Plugins", level: 80, category: "wordpress" },
+  { name: "Custom Themes", level: 90, category: "wordpress" },
+  { name: "React", level: 90, category: "wordpress" },
+  { name: "JavaScript", level: 85, category: "wordpress" },
+  { name: "RESTful API", level: 80, category: "wordpress" },
+  { name: "Contentful", level: 70, category: "wordpress" }
 ]
 
-const categories = ["all", "frontend", "backend", "tools", "cms"]
+const categories = ["all", "frontend", "backend", "tools", "wordpress"]
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all")
