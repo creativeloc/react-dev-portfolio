@@ -14,6 +14,8 @@ const skills = [
   { name: "BEM", level: 70, category: "frontend" },
   { name: "Tailwind CSS", level: 90, category: "frontend" },
   { name: "Next.js", level: 80, category: "frontend" },
+  { name: "SPAs", level: 95, category: "frontend" },
+  { name: "CRUD", level: 95, category: "frontend" },
 
   // Backend
   { name: "Node.js", level: 80, category: "backend" },
@@ -34,25 +36,26 @@ const skills = [
   { name: "VS Code", level: 95, category: "tools" },
   { name: "Stripe", level: 80, category: "tools" },
   { name: "PayPal", level: 75, category: "tools" },
-  { name: "ShadCN", level: 80, category: "frontend" },
+  { name: "ShadCN", level: 80, category: "tools" },
 
   // Headless CMS
   { name: "CMS", level: 95, category: "wordpress" },
-  { name: "Strapi", level: 70, category: "wordpress" },
-  { name: "Gatsby", level: 70, category: "wordpress" },
-  { name: "Gutenberg", level: 90, category: "wordpress" },
+  { name: "Strapi CMS", level: 70, category: "wordpress" },
+  { name: "Gatsby CMS", level: 70, category: "wordpress" },
+  { name: "Gutenberg Editor", level: 90, category: "wordpress" },
   { name: "Elementor Pro", level: 90, category: "wordpress" },
   { name: "WooCommerce", level: 80, category: "wordpress" },
-  { name: "Custom Post Types", level: 90, category: "wordpress" },
-  { name: "ACF", level: 90, category: "wordpress" },
+  { name: "Custom Post Types (CPT)", level: 90, category: "wordpress" },
+  { name: "ACF Pro", level: 90, category: "wordpress" },
   { name: "PHP", level: 70, category: "wordpress" },
   { name: "WP_Query", level: 95, category: "wordpress" },
   { name: "Custom Plugins", level: 80, category: "wordpress" },
   { name: "Custom Themes", level: 90, category: "wordpress" },
-  { name: "React", level: 90, category: "wordpress" },
+  { name: "ReactJS", level: 90, category: "wordpress" },
   { name: "JavaScript", level: 85, category: "wordpress" },
   { name: "RESTful API", level: 80, category: "wordpress" },
-  { name: "Contentful", level: 70, category: "wordpress" }
+  { name: "GraphQL", level: 80, category: "wordpress" },
+  { name: "Contentful CMS", level: 70, category: "wordpress" }
 ]
 
 const categories = ["all", "frontend", "backend", "tools", "wordpress"]
