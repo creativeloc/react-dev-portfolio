@@ -55,6 +55,7 @@ const skills = [
   { name: "JavaScript", level: 85, category: "wordpress" },
   { name: "RESTful API", level: 80, category: "wordpress" },
   { name: "GraphQL", level: 80, category: "wordpress" },
+  { name: "Hooks & Filters", level: 70, category: "wordpress" },
   { name: "Contentful CMS", level: 70, category: "wordpress" }
 ]
 
