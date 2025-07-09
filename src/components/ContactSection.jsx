@@ -43,7 +43,7 @@ export const ContactSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="space-y-8">
-            <h3 className="text-2xl font-semi-bold mb-6">
+            <h3 className="text-2xl font-thin mb-6 uppercase">
               Contact Information
             </h3>
             <div className="space-y-6 justify-center">
@@ -113,7 +113,9 @@ export const ContactSection = () => {
             className="bg-card p-8 rounded-lg shadow-xs"
             onSubmit={handleSubmit}
           >
-            <h3 className="text-2xl font-semibold mb-6">Send A Message</h3>
+            <h3 className="text-2xl font-thin mb-6 uppercase">
+              Send A Message
+            </h3>
 
             <form className="space-y-6">
               <div>
@@ -146,7 +148,7 @@ export const ContactSection = () => {
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="John Doe..."
+                  placeholder="john.doe@gmail.com"
                 />
               </div>
 
