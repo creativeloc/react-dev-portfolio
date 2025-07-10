@@ -1,16 +1,16 @@
-import {
-  Instagram,
-  Linkedin,
-  Mail,
-  MapPin,
-  Phone,
-  SendIcon,
-  Twitch,
-  Twitter
-} from "lucide-react"
 import { cn } from "@/lib/utils"
 import { useToast } from "@/hooks/use-toast"
 import { useState } from "react"
+import {
+  LuInstagram,
+  LuLinkedin,
+  LuMail,
+  LuMapPin,
+  LuPhone,
+  LuSend,
+  LuTwitch,
+  LuTwitter
+} from "react-icons/lu"
 
 export const ContactSection = () => {
   const { toast } = useToast()
@@ -49,7 +49,7 @@ export const ContactSection = () => {
             <div className="space-y-6 justify-center">
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Mail className="h-6 w-6 text-primary" />
+                  <LuMail className="h-6 w-6 text-primary" />
                 </div>
                 <div>
                   <h4 className="font-medium text-left">eMail</h4>
@@ -64,7 +64,7 @@ export const ContactSection = () => {
 
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Phone className="h-6 w-6 text-primary" />
+                  <LuPhone className="h-6 w-6 text-primary" />
                 </div>
                 <div>
                   <h4 className="font-medium text-left">Phone</h4>
@@ -79,7 +79,7 @@ export const ContactSection = () => {
 
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <MapPin className="h-6 w-6 text-primary" />
+                  <LuMapPin className="h-6 w-6 text-primary" />
                 </div>
                 <div>
                   <h4 className="font-medium text-left">Location</h4>
@@ -94,16 +94,16 @@ export const ContactSection = () => {
               <h4 className="font-medium mb-4">Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
                 <a href="#" target="_blank">
-                  <Linkedin />
+                  <LuLinkedin size={24} />
                 </a>
                 <a href="#" target="_blank">
-                  <Twitter />
+                  <LuTwitter size={24} />
                 </a>
                 <a href="#" target="_blank">
-                  <Instagram />
+                  <LuInstagram size={24} />
                 </a>
                 <a href="#" target="_blank">
-                  <Twitch />
+                  <LuTwitch size={24} />
                 </a>
               </div>
             </div>
@@ -176,7 +176,7 @@ export const ContactSection = () => {
                 )}
               >
                 {isSubmitting ? "Sending..." : "Send Message"}
-                <SendIcon size={16} />
+                <LuSend scale={16} />
               </button>
             </form>
           </div>
